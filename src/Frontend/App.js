@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // Components
 import Head from './Components/header/Head';
 //  Style
-import style from './App.css';
+import style from './App.scss';
 import sassStyle from './style.scss'
 
 class App extends Component {
@@ -14,7 +14,9 @@ class App extends Component {
         <p className={style.intro}>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <p className={sassStyle.testscss}>Sass</p>
+        <div className={sassStyle.testscss}>
+          <p>Sass</p>
+        </div>
       </div>
     );
   }

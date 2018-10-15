@@ -1,4 +1,9 @@
+/* $white: #fff; */
+
 .testscss {
-    background: blue;
-    color: red;
+    background-color: blue;
+    color: white;
+    p {
+        font-weight: bold !important;
+    }
 }
